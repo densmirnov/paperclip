@@ -52,4 +52,4 @@ VOLUME ["/paperclip"]
 EXPOSE 3100
 
 USER node
-CMD ["node", "server/dist/index.js"]
+CMD ["node", "server/node_modules/tsx/dist/cli.mjs", "server/src/index.ts"]
